@@ -38,18 +38,21 @@
  *
  */
 
-let firstName = "";
+let firstName = "caislin";
 
 /**
  * @description
  * Create a variable called middleName and set the value to your middle name.
  */
 
+var middleName = 'quinn'
+
 /**
  * @description
  * Create a variable called lastName and set the value to your last name.
  */
 
+ var lastName = 'ODalaigh'
 /**
  * @description
  * Create a variable called fullName. Assign it the values of firstName, middleName, and lastName
@@ -57,6 +60,10 @@ let firstName = "";
  * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat
  */
 
+ var fullName += 
+ var1 + '' + var2 ' ' + var3 
+
+ 
 /**
  * @do
  * include this file in a new pull request

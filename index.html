@@ -24,11 +24,52 @@
           <code>F12</code> or right click anywhere on this page and select
           <i>inspect</i>
         </p>
+
+        <input type="text" id="input">
+
       </section>
     </main>
 
-    <script src="exercises/01.strings.js"></script>
+    <!-- <script src="exercises/01.strings.js"></script> -->
     <!-- <script src="exercises/02.strings.js"></script> -->
     <!-- <script src="exercises/01.arrays.js"></script> -->
+
+    <script>
+
+      // variables
+      // var let const
+      
+      var firstName = 'caislin';
+      console.log(firstName);
+      // var middleName = 'quinn';
+      // console.log(middleName);
+      // var lastName = 'ODalaigh';
+      // console.log(lastName);
+
+      // firstName += 'quinn';
+      // console.log(firstName);
+
+      var fullName = 'caislin quinn ODalaigh';
+      console.log(fullName[0])
+
+      console.log(fullName.charAt(0))
+
+      console.log(fullName.length)
+
+      console.log(fullName[21])
+
+      console.log(fullName.charAt(fullName.length -1))
+
+      console.log(fullName.replace("i", "x"))
+
+      console.log(fullName.substring(0, 6))
+
+      console.log(fullName.toUpperCase())
+
+      console.log(fullName.toLowerCase(0, 6))
+      console.log(fullName)
+
+      console.log(document.getElementById('input').value)
+    </script>
   </body>
 </html>
