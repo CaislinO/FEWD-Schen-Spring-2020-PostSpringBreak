@@ -38,11 +38,7 @@
  *
  */
 
-<<<<<<< HEAD
 let firstName = "caislin";
-=======
-// let firstName = "";
->>>>>>> 51135fc624b0b52c3c084d65cfc091375296e09c
 
 /**
  * @description
