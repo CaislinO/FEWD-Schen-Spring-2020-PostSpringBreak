@@ -4,10 +4,14 @@
 
 /**
  * @description
- * Create a vairable called fullName. Set its vaule to your full name.
+ * Create a vairable called fullName. Set its value to your full name.
  */
 
-var fullName = "";
+var fullName = "Caislin ODalaigh";
+
+
+
+
 
 /**
  * @description
@@ -15,7 +19,14 @@ var fullName = "";
  * create a substring from fullName that contains the value of your first name. Store the result in a variable
  */
 
-/**
+
+
+
+ 
+
+
+
+ /**
  * @description
  * access the last letter of fullName. store the result in a variable. Remember that data structure numbering is index based
  *
