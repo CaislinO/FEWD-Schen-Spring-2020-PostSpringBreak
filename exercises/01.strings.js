@@ -60,8 +60,8 @@ var middleName = 'quinn'
  * @see https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/concat
  */
 
- var fullName += 
- var1 + '' + var2 ' ' + var3 
+//  var fullName += 
+//  var1 + '' + var2 ' ' + var3 
 
  
 /**
