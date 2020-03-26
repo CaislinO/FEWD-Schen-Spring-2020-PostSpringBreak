@@ -31,7 +31,7 @@
     <!-- <script src="exercises/02.strings.js"></script> -->
     <!-- <script src="exercises/01.arrays.js"></script> -->
 
-    <!-- <script>
+    <script>
       var str = "this is a string and it goes on and on and on"
 
       console.log(str.toUpperCase())
@@ -60,91 +60,95 @@
 
       
 
-    </script> -->
+    </script>
 
 <script>
-// var fullName = "Caislin ODalaigh";
-// console.log(fullName)
-// console.log(fullName)
-// var firstName = fullName.substring(0, 6)
-//  console.log(firstName)
-// var lastLetter = firstName.charAt(firstName.length -1)
-// console.log(lastLetter)
-// var lastLetterFullName = fullName.charAt(fullName.length -1)
-// console.log(lastLetterFullName)
-// var last5 = fullName.charAt(fullName.length -5, fullName.length -1)
-// console.log(last5)
-// var lastFive = fullName.substring(11)
-// console.log(lastFive)
+var fullName = "Caislin ODalaigh";
+console.log(fullName)
+console.log(fullName)
+var firstName = fullName.substring(0, 6)
+ console.log(firstName)
+var lastLetter = firstName.charAt(firstName.length -1)
+console.log(lastLetter)
+var lastLetterFullName = fullName.charAt(fullName.length -1)
+console.log(lastLetterFullName)
+var last5 = fullName.charAt(fullName.length -5, fullName.length -1)
+console.log(last5)
+var lastFive = fullName.substring(11)
+console.log(lastFive)
 
-// var obj = 'phone'
-// console.log(obj [3])
-
-var arr = ['one', 'two', 3, 
-// function add(a, b)
-// { return a + b;
-// },
-// { name: "ramon", age: 18 }
-];
-
-console.log(arr[0])
-console.log(arr[1])
-
-var greeting = "hello my name is slim shady"
-
-console.log(greeting.split(" "))
-
-console.log(arr.join(" _th"))
-
-
-var root = "c://"
-
-var path = arr.join("/")
-
-var absolutePath = root + path
-console.log(absolutePath)
-
-console.log(arr)
-
-var myFile = 'myFile';
-arr.push('myFile');
-
-console.log(arr);
-
-console.log(arr.sort());
-console.log(arr.pop());
-console.log(arr);
-
-
-console.log(arr.unshift("chinese takeout"));
-console.log(arr);
-console.log(arr.shift());
-console.log(arr);
-
-console.log(arr.length)
-console.log(arr.indexOf("MyComputer"))
-
-
-var names = "names";
-arr.push("names");
-console.log(arr);
-
-console.log(arr.sort());
-console.log(arr.shift());
-
-console.log(arr.shift());
-console.log(arr.shift());
-
-console.log(arr.length)
-
-var array = ['jill', 'jack', 'jim'];
+var obj = 'phone'
+console.log(obj [3])
 
 
 
-console.log(array[0]);
+function add (a, b ) {
 
 
-console.log(array[0][array[0].length - 1]);
+
+console.log (a+b)
+return a + b;
+}
+
+add(3, 5)
+add(10, 10)
+add(10, 20)
+add(39, 1837753)
+
+
+function sub () {
+
+  console.log( 9 - 2)
+}
+
+
+sub()
+
+
+function greeting (name) {
+  console.log("hello " + name)
+}
+
+greeting('Douglas')
+
+
+
+function name() {
+  var reallyCoolName = "Im awesome";
+
+  console.log(reallyCoolName);
+  return reallyCoolName;
+}
+
+
+name();
+
+
+
+
+
+
+
+
+function printNames() {
+
+
+var names = ['jimmy jack johnny jose']
+
+
+for(var i = 0; i < names.length; i ++ ) {
+  console.log(names[i])
+}
+
+}
+
+console.log(printNames())
+
+
+var section = document.getElementById('section')
+
+section.innerHTML = '<p>hello world</p>'
+console.log(section)
 </script>
   </body>
 </html>
