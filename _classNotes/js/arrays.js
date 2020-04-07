@@ -1,4 +1,5 @@
-  // var obj = 'phone'
+
+// var obj = 'phone'
       // console.log(obj[3])
 
       var greeting = "hello my name is slim shady";
