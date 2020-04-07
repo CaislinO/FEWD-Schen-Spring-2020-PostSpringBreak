@@ -3,7 +3,7 @@
       // console.log(obj[3])
 
       var greeting = "hello my name is slim shady";
-
+b
       console.log(greeting.split(" "));
 
       var arr = [
